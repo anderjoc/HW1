@@ -16,8 +16,8 @@
 				</h1>
 			</header>
 		</section>
-		<section class="content-right">
-			<div id="background">
+		<div class="content-right">
+			<section id="background">
 				<h2>What is Pyramid Web Framework?</h2>
 				<p>Pyramid is a Web framework that was created in December of 2010. It is part of 
 					the Pylons Project and was a merger of Pylons and Repoze in which features 
@@ -36,8 +36,8 @@
 					you don't have to know a lot in order to start a project. Pyramid is also good 
 					for prototyping concepts as well as for developing either small or large web 
 					applications.</p>
-			</div>
-			<div id="tenants">
+			</section>
+			<section id="tenants">
 				<h2>Tenants of Pyramid</h2>
 				<ol>
 					<li>Simplicity - can use Pyramid and get results even if you only partially 
@@ -49,39 +49,39 @@
 					<li>Reliability - 100% of the content of Pyramid is tested</li>
 					<li>Openness - it has a permissive open source license</li>
 				</ol>
-			</div>
-			<div id="system">
+			</section>
+			<section id="system">
 				<h2>System Requirements</h2>
 				<ul>
 					<li>Python 2.6 or newer</li>
 					<li>UNIX-like system (like Linux, MacOS X, and FreeBSD) or Windows platform</li>
 					<li>Python interpreter</li>
 				</ul>
-			</div>
-			<div id="download">
+			</section>
+			<section id="download">
 				<h2>How to Download</h2>
 				<p>Pyramid is installed in python development mode and can be installed on a virtual 
 					environment. Instructions on how to download Pyramid on different systems or on a 
 					virtual environment can be found <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/narr/install.html" target="_blank">here</a>. 
 					When Pyramid is installed, so are various libraries such as WebOb and PasteDeploy. 
 					Scaffolds are also registered, which make it easy to start a new Pyramid project.</p>
-			</div>
-			<div id="pylons">
+			</section>
+			<section id="pylons">
 				<h2>Differences Between Pyramid and Pylons</h2>
 				<p>Pyramid is a new framework that is different from the Pylons Web framework. However, 
 					Pylons 1.0 code will run inside Pyramid through a fallback handler. For those who 
 					currently use Pylons and may want to eventually switch to Pyramid, they should avoid 
 					using global objects except in action methods and ensure all routes are explicit and 
 					have a unique name.</p>
-			</div>
-			<div id="repoze">
+			</section>
+			<section id="repoze">
 				<h2>Differences Between Pyramid and repoze.bfg</h2>
 				<p>Pyramid is based off repoze.bfg, but it has a new name and some new features. These 
 					new features come from what was added from Pylons 1.0. Users who want to make the 
 					switch from repoze.bfg to Pyramid don't have to make any changes and can use an automated 
 					porting process to make the conversion.</p>
-			</div>
-			<div id="sample">
+			</section>
+			<section id="sample">
 				<h2>Sample Code: Hello World!</h2>
 				<img src="images/code1.png">
 				<p>Pyramid prides itself in the simple code that is required to create a webpage that displays 
@@ -96,8 +96,8 @@
 					<li>Defines the function and returns a response</li>
 					<li>Configures the application and specifies where to serve it</li>
 				</ol>
-			</div>
-			<div id="more">
+			</section>
+			<section id="more">
 				<h2>More Useful Attributes of Pyramid</h2>
 				<ul>
 					<li>Faster than other Python frameworks</li>
@@ -116,55 +116,32 @@
 					<li>Can subscribe to listen to Pyramid events or your own that you create</li>
 					<li>Composed of the best features from other Python Web frameworks</li>
 				</ul>
-			</div>
-			<div id="sources">
+			</section>
+			<section id="sources">
 				<h2>Sources</h2>
 				<p><a href="http://www.pylonsproject.org/projects/pyramid/about" target="_blank">Pylons Project Website</a></p>
 				<p><a href="http://www.sixfeetup.com/blog/intro-to-the-python-framework-pyramid-and-a-sample-app" target="_blank">Six Feet Up Pyramid Intro</a></p>
 				<p><a href="http://www.sixfeetup.com/blog/4-python-web-frameworks-compared" target="_blank">Six Feet Up Python Web Framework Comparison</a></p>
 				<p><a href="http://www.infoworld.com/d/application-development/pillars-python-pyramid-web-framework-168661?1389839615" target="_blank">Info World Pyramid Article</a></p>
-			</div>
-		</section>
-		<section class="left-float">		
-			<nav>
-				<table>
-					<tr>
-						<td><a href="#background">What is Pyramid?</a></td>
-					</tr>
-					<tr>
-						<td><a href="#tenants">Tenants of Pyramid</a></td>
-					</tr>
-					<tr>
-						<td><a href="#system">System Requirements</a></td>
-					</tr>
-					<tr>
-						<td><a href="#download">How to Download</a></td>
-					</tr>
-					<tr>
-						<td><a href="#pylons">Differences Between Pyramid and Pylons</a></td>
-					</tr>
-					<tr>
-						<td><a href="#repoze">Differences Between Pyramid and repoze.bfg</a></td>
-					</tr>
-					<tr>
-						<td><a href="#sample">Sample Code: Hello World!</a></td>
-					</tr>
-					<tr>
-						<td><a href="#more">More Useful Attributes of Pyramid</a></td>
-					</tr>
-					<tr>
-						<td><a href="#sources">Sources</a></td>
-					</tr>
-					<tr>
-						<td><a href=about.html>About the Author</a></td>
-					</tr>
-				</table>
-			</nav>
-		</section>
-		<section class="bottom-center">
-			<footer>
-				<h3>How useful was this webpage?</h3>
-			</footer>
-		</section>
+			</section>
+		</div>
+		<div class="left-float">		
+		<nav>
+            <ul>
+                <li><a href="#background">What is Pyramid?</a></li>
+                <li><a href="#tenants">Tenants of Pyramid</a></li>
+                <li><a href="#system">System Requirements</a></li>
+                <li><a href="#download">How to Download</a></li>
+                <li><a href="#pylons">Differences Between Pyramid and Pylons</a></li>
+                <li><a href="#repoze">Differences Between Pyramid and repoze.bfg</a></li>
+                <li><a href="#sample">Sample Code: Hello World!</a></li>
+                <li><a href="#more">More Useful Attributes of Pyramid</a></li>
+                <li><a href="#sources">Sources</a></li>
+                <li><a href=about.html>About the Author</a></li>
+            </ul>
+        </nav>
+		<footer class="bottom-center">
+			<h3>How useful was this webpage?</h3>
+		</footer>
 	</body>
 </html>
