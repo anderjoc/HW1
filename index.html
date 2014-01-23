@@ -8,166 +8,163 @@
 		<link rel="stylesheet" href="css/styles.css"/>
 	</head>
 	<body>
-		<div class="content">
-			<section>
-				<header>
-					<h1>
-						<img id="icon" src="images/pyramid-icon.png"/>
-						<span>Pyramid Web Framework</span>
-					</h1>
-				</header>
-			</section>
-			<section class="content-right">
-				<div id="background">
-					<h2>What is Pyramid Web Framework?</h2>
-					<p>Pyramid is a Web framework that was created in December of 2010. It is part of 
-						the Pylons Project and was a merger of Pylons and Repoze in which features 
-						were added and removed to make it more useful for Pylons framework. The 
-						concepts and features of Pyramid are inspired by Zope, Pylons, and Django. 
-						Specific things that were taken from each include:</p>
-					<ul>
-						<li>Zope - extensibility, traversal, and declarative security</li>
-						<li>Pylons - URL dispatch, non-opinionated view of persistence, and templating</li>
-						<li>Django - view and level of documentation</li>
-					</ul>
-					<p>Pyramid is considered to have a MVC (model-view-controller) framework, but it 
-						doesn't use the MVC terminology. For example, instead of having "controllers" 
-						(classes with methods that map to URLs), it has "views".</p>	
-					<p>Pyramid has about 650 pages of thorough documentation on basic to advanced topics. 
-						It is also a great framework to use for getting started on a project quickly as 
-						you don't have to know a lot in order to start a project. Pyramid is also good 
-						for prototyping concepts as well as for developing either small or large web 
-						applications.</p>
-				</div>
-				<div id="tenants">
-					<h2>Tenants of Pyramid</h2>
-					<ol>
-						<li>Simplicity - can use Pyramid and get results even if you only partially 
-							understand it because there are a minimal number of core concepts</li>
-						<li>Minimalism - it provides fast solutions to fundamental activities of 
-							creating web applications</li>
-						<li>Documentation - all aspects of Pyramid have up-to-date documentation</li>
-						<li>Speed - it provides fast execution of common tasks</li>
-						<li>Reliability - 100% of the content of Pyramid is tested</li>
-						<li>Openness - it has a permissive open source license</li>
-					</ol>
-				</div>
-				<div id="system">
-					<h2>System Requirements</h2>
-					<ul>
-						<li>Python 2.6 or newer</li>
-						<li>UNIX-like system (like Linux, MacOS X, and FreeBSD) or Windows platform</li>
-						<li>Python interpreter</li>
-					</ul>
-				</div>
-				<div id="download">
-					<h2>How to Download</h2>
-					<p>Pyramid is installed in python development mode and can be installed on a virtual 
-						environment. Instructions on how to download Pyramid on different systems or on a 
-						virtual environment can be found <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/narr/install.html" target="_blank">here</a>. 
-						When Pyramid is installed, so are various libraries such as WebOb and PasteDeploy. 
-						Scaffolds are also registered, which make it easy to start a new Pyramid project.</p>
-				</div>
-				<div id="pylons">
-					<h2>Differences Between Pyramid and Pylons</h2>
-					<p>Pyramid is a new framework that is different from the Pylons Web framework. However, 
-						Pylons 1.0 code will run inside Pyramid through a fallback handler. For those who 
-						currently use Pylons and may want to eventually switch to Pyramid, they should avoid 
-						using global objects except in action methods and ensure all routes are explicit and 
-						have a unique name.</p>
-				</div>
-				<div id="repoze">
-					<h2>Differences Between Pyramid and repoze.bfg</h2>
-					<p>Pyramid is based off repoze.bfg, but it has a new name and some new features. These 
-						new features come from what was added from Pylons 1.0. Users who want to make the 
-						switch from repoze.bfg to Pyramid don't have to make any changes and can use an automated 
-						porting process to make the conversion.</p>
-				</div>
-				<div id="sample">
-					<h2>Sample Code: Hello World!</h2>
-					<img src="images/code1.png">
-					<p>Pyramid prides itself in the simple code that is required to create a webpage that displays 
-						"Hello World!" It is as simple as creating a file named <code>helloworld.py</code> that contains the 
-						above code. It is then run in a Python interpreter that has Pyramid installed using the 
-						code seen below. When a local browser is opened to <link>http://localhost:8080/hello/world</link>, 
-						"Hello World!" will be displayed.</p>
-					<img src="images/code2.png">
-					<p>The helloworld.py file does three things:</p>
-					<ol>
-						<li>Imports the needed classes</li>
-						<li>Defines the function and returns a response</li>
-						<li>Configures the application and specifies where to serve it</li>
-					</ol>
-				</div>
-				<div id="more">
-					<h2>More Useful Attributes of Pyramid</h2>
-					<ul>
-						<li>Faster than other Python frameworks</li>
-						<li>Has a "Cookbook" of demonstrations of common integration scenarios and Pylonsproject.org has tutorials and information</li>
-						<li>Can write single-file applications, which is great for debugging</li>
-						<li>Has a debugging toolbar as well as debugging settings that notify when something is wrong</li>
-						<li>Paster has templates that can quickly build the skeleton of the infrastructure for several types of Web applications</li>
-						<li>Can generate URLs</li>
-						<li>Can use many different databases including SQLAlchemy, Zope Object Database, and other NoSQL databases</li>
-						<li>Commits at the end of a request or aborts if there's an exception so bad changes or requests won't be committed</li>
-						<li>Can use add-ons that provide additional functionality</li>
-						<li>Can use extensible templating (including Mako, Genshi, Chameleon, and Jinja2) and can even use multiple templating systems in one project</li>
-						<li>Can use multiple Python Packages</li>
-						<li>Has a flexible pluggable authentication system</li>
-						<li>Has traversal with a tree of resources with different associated views (i.e. managers have a different view than employees)</li>
-						<li>Can subscribe to listen to Pyramid events or your own that you create</li>
-						<li>Composed of the best features from other Python Web frameworks</li>
-					</ul>
-				</div>
-				<div id="sources">
-					<h2>Sources</h2>
-					<p><a href="http://www.pylonsproject.org/projects/pyramid/about" target="_blank">Pylons Project Website</a></p>
-					<p><a href="http://www.sixfeetup.com/blog/intro-to-the-python-framework-pyramid-and-a-sample-app" target="_blank">Six Feet Up Pyramid Intro</a></p>
-					<p><a href="http://www.sixfeetup.com/blog/4-python-web-frameworks-compared" target="_blank">Six Feet Up Python Web Framework Comparison</a></p>
-					<p><a href="http://www.infoworld.com/d/application-development/pillars-python-pyramid-web-framework-168661?1389839615" target="_blank">Info World Pyramid Article</a></p>
-				</div>
-			</section>
-			<section class="left-float">		
-				<nav>
-					<table>
-						<tr>
-							<td><a href="#background">What is Pyramid?</a></td>
-						</tr>
-						<tr>
-							<td><a href="#tenants">Tenants of Pyramid</a></td>
-						</tr>
-						<tr>
-							<td><a href="#system">System Requirements</a></td>
-						</tr>
-						<tr>
-							<td><a href="#download">How to Download</a></td>
-						</tr>
-						<tr>
-							<td><a href="#pylons">Differences Between Pyramid and Pylons</a></td>
-						</tr>
-						<tr>
-							<td><a href="#repoze">Differences Between Pyramid and repoze.bfg</a></td>
-						</tr>
-						<tr>
-							<td><a href="#sample">Sample Code: Hello World!</a></td>
-						</tr>
-						<tr>
-							<td><a href="#more">More Useful Attributes of Pyramid</a></td>
-						</tr>
-						<tr>
-							<td><a href="#sources">Sources</a></td>
-						</tr>
-						<tr>
-							<td><a href=about.html>About the Author</a></td>
-						</tr>
-					</table>
-				</nav>
-			</section>
-			<section class="bottom-center">
-				<footer>
-					<h3>How useful was this webpage?</h3>
-				</footer>
-			</section>
-		</div>
+		<section>
+			<header>
+				<h1>
+					<img id="icon" src="images/pyramid-icon.png"/>
+					<span>Pyramid Web Framework</span>
+				</h1>
+			</header>
+		</section>
+		<section class="content-right">
+			<div id="background">
+				<h2>What is Pyramid Web Framework?</h2>
+				<p>Pyramid is a Web framework that was created in December of 2010. It is part of 
+					the Pylons Project and was a merger of Pylons and Repoze in which features 
+					were added and removed to make it more useful for Pylons framework. The 
+					concepts and features of Pyramid are inspired by Zope, Pylons, and Django.	Specific things that were taken from each include:</p>
+				<ul>
+					<li>Zope - extensibility, traversal, and declarative security</li>
+					<li>Pylons - URL dispatch, non-opinionated view of persistence, and templating</li>
+					<li>Django - view and level of documentation</li>
+				</ul>
+				<p>Pyramid is considered to have a MVC (model-view-controller) framework, but it 
+					doesn't use the MVC terminology. For example, instead of having "controllers" 
+					(classes with methods that map to URLs), it has "views".</p>	
+				<p>Pyramid has about 650 pages of thorough documentation on basic to advanced topics. 
+					It is also a great framework to use for getting started on a project quickly as 
+					you don't have to know a lot in order to start a project. Pyramid is also good 
+					for prototyping concepts as well as for developing either small or large web 
+					applications.</p>
+			</div>
+			<div id="tenants">
+				<h2>Tenants of Pyramid</h2>
+				<ol>
+					<li>Simplicity - can use Pyramid and get results even if you only partially 
+						understand it because there are a minimal number of core concepts</li>
+					<li>Minimalism - it provides fast solutions to fundamental activities of 
+						creating web applications</li>
+					<li>Documentation - all aspects of Pyramid have up-to-date documentation</li>
+					<li>Speed - it provides fast execution of common tasks</li>
+					<li>Reliability - 100% of the content of Pyramid is tested</li>
+					<li>Openness - it has a permissive open source license</li>
+				</ol>
+			</div>
+			<div id="system">
+				<h2>System Requirements</h2>
+				<ul>
+					<li>Python 2.6 or newer</li>
+					<li>UNIX-like system (like Linux, MacOS X, and FreeBSD) or Windows platform</li>
+					<li>Python interpreter</li>
+				</ul>
+			</div>
+			<div id="download">
+				<h2>How to Download</h2>
+				<p>Pyramid is installed in python development mode and can be installed on a virtual 
+					environment. Instructions on how to download Pyramid on different systems or on a 
+					virtual environment can be found <a href="http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/narr/install.html" target="_blank">here</a>. 
+					When Pyramid is installed, so are various libraries such as WebOb and PasteDeploy. 
+					Scaffolds are also registered, which make it easy to start a new Pyramid project.</p>
+			</div>
+			<div id="pylons">
+				<h2>Differences Between Pyramid and Pylons</h2>
+				<p>Pyramid is a new framework that is different from the Pylons Web framework. However, 
+					Pylons 1.0 code will run inside Pyramid through a fallback handler. For those who 
+					currently use Pylons and may want to eventually switch to Pyramid, they should avoid 
+					using global objects except in action methods and ensure all routes are explicit and 
+					have a unique name.</p>
+			</div>
+			<div id="repoze">
+				<h2>Differences Between Pyramid and repoze.bfg</h2>
+				<p>Pyramid is based off repoze.bfg, but it has a new name and some new features. These 
+					new features come from what was added from Pylons 1.0. Users who want to make the 
+					switch from repoze.bfg to Pyramid don't have to make any changes and can use an automated 
+					porting process to make the conversion.</p>
+			</div>
+			<div id="sample">
+				<h2>Sample Code: Hello World!</h2>
+				<img src="images/code1.png">
+				<p>Pyramid prides itself in the simple code that is required to create a webpage that displays 
+					"Hello World!" It is as simple as creating a file named <code>helloworld.py</code> that contains the 
+					above code. It is then run in a Python interpreter that has Pyramid installed using the 
+					code seen below. When a local browser is opened to <link>http://localhost:8080/hello/world</link>, 
+					"Hello World!" will be displayed.</p>
+				<img src="images/code2.png">
+				<p>The helloworld.py file does three things:</p>
+				<ol>
+					<li>Imports the needed classes</li>
+					<li>Defines the function and returns a response</li>
+					<li>Configures the application and specifies where to serve it</li>
+				</ol>
+			</div>
+			<div id="more">
+				<h2>More Useful Attributes of Pyramid</h2>
+				<ul>
+					<li>Faster than other Python frameworks</li>
+					<li>Has a "Cookbook" of demonstrations of common integration scenarios and Pylonsproject.org has tutorials and information</li>
+					<li>Can write single-file applications, which is great for debugging</li>
+					<li>Has a debugging toolbar as well as debugging settings that notify when something is wrong</li>
+					<li>Paster has templates that can quickly build the skeleton of the infrastructure for several types of Web applications</li>
+					<li>Can generate URLs</li>
+					<li>Can use many different databases including SQLAlchemy, Zope Object Database, and other NoSQL databases</li>
+					<li>Commits at the end of a request or aborts if there's an exception so bad changes or requests won't be committed</li>
+					<li>Can use add-ons that provide additional functionality</li>
+					<li>Can use extensible templating (including Mako, Genshi, Chameleon, and Jinja2) and can even use multiple templating systems in one project</li>
+					<li>Can use multiple Python Packages</li>
+					<li>Has a flexible pluggable authentication system</li>
+					<li>Has traversal with a tree of resources with different associated views (i.e. managers have a different view than employees)</li>
+					<li>Can subscribe to listen to Pyramid events or your own that you create</li>
+					<li>Composed of the best features from other Python Web frameworks</li>
+				</ul>
+			</div>
+			<div id="sources">
+				<h2>Sources</h2>
+				<p><a href="http://www.pylonsproject.org/projects/pyramid/about" target="_blank">Pylons Project Website</a></p>
+				<p><a href="http://www.sixfeetup.com/blog/intro-to-the-python-framework-pyramid-and-a-sample-app" target="_blank">Six Feet Up Pyramid Intro</a></p>
+				<p><a href="http://www.sixfeetup.com/blog/4-python-web-frameworks-compared" target="_blank">Six Feet Up Python Web Framework Comparison</a></p>
+				<p><a href="http://www.infoworld.com/d/application-development/pillars-python-pyramid-web-framework-168661?1389839615" target="_blank">Info World Pyramid Article</a></p>
+			</div>
+		</section>
+		<section class="left-float">		
+			<nav>
+				<table>
+					<tr>
+						<td><a href="#background">What is Pyramid?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#tenants">Tenants of Pyramid</a></td>
+					</tr>
+					<tr>
+						<td><a href="#system">System Requirements</a></td>
+					</tr>
+					<tr>
+						<td><a href="#download">How to Download</a></td>
+					</tr>
+					<tr>
+						<td><a href="#pylons">Differences Between Pyramid and Pylons</a></td>
+					</tr>
+					<tr>
+						<td><a href="#repoze">Differences Between Pyramid and repoze.bfg</a></td>
+					</tr>
+					<tr>
+						<td><a href="#sample">Sample Code: Hello World!</a></td>
+					</tr>
+					<tr>
+						<td><a href="#more">More Useful Attributes of Pyramid</a></td>
+					</tr>
+					<tr>
+						<td><a href="#sources">Sources</a></td>
+					</tr>
+					<tr>
+						<td><a href=about.html>About the Author</a></td>
+					</tr>
+				</table>
+			</nav>
+		</section>
+		<section class="bottom-center">
+			<footer>
+				<h3>How useful was this webpage?</h3>
+			</footer>
+		</section>
 	</body>
 </html>
