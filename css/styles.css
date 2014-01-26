@@ -11,44 +11,100 @@ h1{
 	font-size: 45px;
 	text-align: center;
 	margin: 30px 20px 0px 20px;
+	border-bottom:solid;
+	padding-bottom: 10px;
 }
 
 img{
-	max-height:500px;
-	max-width:500px;
+	max-width:200px;
+}
+
+figure{
+	margin:5px 10px 5px 10px;
+}
+
+figcaption{
+	width:170px;
+	text-align: center;
+	margin: 0 15px 0 15px;
+	font-size: 9pt;
 }
 
 .content-right{
-	width:80%;
+	width:70%;
 	float:right;
 	padding-bottom:50px;
 	margin:20px;
 }
 
-.bottom-center{
-	position:fixed;
+footer{
+	position:absolute;
 	bottom:0px;
 	width:100%;
 	text-align:center;
+	height: 50px;
 	background-color: #ED850C;
 }
 
 .left-float{
-	width:20%;
+	width:30%;
+	max-width:220px;
 	float:left;
 	position:fixed;
-	margin: 100px 10px 0px 10px;
+	margin: 10px 10px 0px 10px;
+
 }
 
-nav table{
-	width: 200px;
+nav{
+	border-right: solid;
+}
+
+nav ul{
+	list-style-type: none;
+	padding-left: 5px;
+	padding-right: 10px;
+	
+}
+
+nav ul li{
+	padding: 5px;
+	font-size: 14pt;
 }
 
 a{
 	text-decoration: none;
+	color:black;
 }
 
-td{
-	padding:10px;
+.email{
+	color: blue;
+	text-decoration: underline;
 }
 
+.grad{
+	margin: 5px;
+	padding: 5px;
+	float:right;
+	display: inline;
+}
+
+.canoe{
+	margin: 5px;
+	padding: 5px;
+	float:left;
+	display: inline;
+}
+
+.gibson{
+	margin: 5px;
+	padding: 5px;
+	float:right;
+	display: inline;
+}
+
+.DR_dance{
+	margin: 5px;
+	padding: 5px;
+	float:left;
+	display: inline;
+}
