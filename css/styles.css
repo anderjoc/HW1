@@ -1,5 +1,5 @@
 body{
-	margin:0px;
+	margin:0 10px 0 10px;
 	font-size:12pt;
 	font-family: 'Duru Sans', sans-serif;
 }
@@ -51,16 +51,14 @@ figcaption{
 }
 
 .content-right{
-	width:70%;
+	width:75%;
 	float:right;
 	padding-bottom:50px;
 	margin:20px;
 }
 
 .left-float{
-	width:30%;
-	max-width:220px;
-	/*float:left;*/
+	width:20%;
 	position:fixed;
 	margin: 10px 10px 0px 10px;
 
@@ -84,46 +82,32 @@ nav ul li{
 }
 
 a{
-	text-decoration: none;
 	color:black;
 }
 
-.email{
-	color: blue;
-	text-decoration: underline;
-}
-
-.grad{
+.pic_right{
 	margin: 5px;
 	padding: 5px;
 	float:right;
 	display: inline;
 }
 
-.canoe{
+.pic_left{
 	margin: 5px;
 	padding: 5px;
 	float:left;
 	display: inline;
 }
-
-.gibson{
-	margin: 5px;
-	padding: 5px;
-	float:right;
-	display: inline;
-}
-
-.DR_dance{
-	margin: 5px;
-	padding: 5px;
-	float:left;
-	display: inline;
-}
-
 
 #sources ul{
 	list-style: none;
 	text-decoration: underline;
 	padding:0 0 0 5px;	
 }
+
+a:hover{
+	font-weight: bold;
+	color: orange;
+}
+
+
