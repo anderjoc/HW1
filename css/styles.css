@@ -1,5 +1,6 @@
 body{
 	margin:0px;
+	font-size:13pt;
 }
 
 #icon{
@@ -13,10 +14,28 @@ h1{
 	margin: 30px 20px 0px 20px;
 	border-bottom:solid;
 	padding-bottom: 10px;
+	text-shadow: 2px 2px gray;
+}
+
+h2{
+	margin: 35px 0 5px 0;
+}
+
+#background h2{
+	margin: 10px 0 5px 0;
+}
+
+li{
+	padding-bottom: 3px;
+	
 }
 
 img{
 	max-width:200px;
+}
+
+.example{
+	max-width:500px;
 }
 
 figure{
@@ -107,4 +126,11 @@ a{
 	padding: 5px;
 	float:left;
 	display: inline;
+}
+
+
+#sources ul{
+	list-style: none;
+	text-decoration: underline;
+	padding:0 0 0 5px;	
 }
