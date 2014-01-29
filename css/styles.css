@@ -109,6 +109,11 @@ figcaption{
 	margin:20px 30px 10px 20px;
 }
 
+.content-right p{
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
 
 /*Navigation bar*/
 .left-float{
