@@ -10,8 +10,9 @@
 		<script src="js/Utility.js"></script>
 		<script src="js/header.js"></script>
 		<script src="js/footer.js"></script>
+		<script src="js/clock.js"></script>
 	</head>
-	<body id="about">
+	<body id="about" onload="updateClock(); setInterval('updateClock()',1000)">
 		<section id="header">
 		</section>
 		<div>
@@ -88,6 +89,8 @@
 					<p>If you have any questions for Jocelynn, she'd love to answer them! Feel free to send her an 
 						<a href="mailto:anderjoc@et.byu.edu?subject=Pyramid Website Feedback" class="email">email</a>!</p>
 				</section>
+			</div>
+			<div id="clock">
 			</div>
 		</div>
 		<section id = 'footer'>
