@@ -5,7 +5,7 @@ var Clock = function () {
 Clock.prototype = {
 	init: function () {
 		this.el = document.createElement('span');
-		this.el.id = 'clock'
+		this.el.id = 'clock';
 		timeDisplay = document.createTextNode("");
 		document.getElementById("clock").appendChild(timeDisplay);
 		updateClock();

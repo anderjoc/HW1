@@ -8,6 +8,6 @@ document.getElementById('footer').appendChild(f.el);
 c = new Clock;
 document.getElementById('clock').appendChild(c.el);
 
-var timeoutLength = 10000
+var timeoutLength = 10000;
 setTimeout(timeout,timeoutLength);
 
