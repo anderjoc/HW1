@@ -33,7 +33,6 @@ function updateClock() {
     	
     	document.getElementById("clock").firstChild.nodeValue = 'The current time is ' + timeString;
 
-    	console.log(timeString);
 
 }
 
