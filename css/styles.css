@@ -167,6 +167,10 @@ nav h3{
 	text-shadow: 1px 1px #ED8E0E;
 }
 
+.ui-accordion-content{
+	padding-right:0px;
+}
+
 
 /*Sources formatting*/
 #sources ul{
