@@ -73,3 +73,4 @@ $("nav > a").hover(function() {
 					$(this).removeClass('hover');
 				});
 }
+$(document).ready(init);
