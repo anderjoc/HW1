@@ -67,9 +67,9 @@ $.event.special.hoverintent = {
 
 
 $("nav > a")
-	.on("mouseenter", function() {
+	.hover(function() {
 		$(this).css({"font-weight": "bold", "color": "#ED8E0E"});
-	})
-	.on("mouseleave", function() {
+	},
+	function() {
 		$(this).css({"font-weight": "", "color": "#000000"});
 	});
