@@ -64,5 +64,3 @@ $.event.special.hoverintent = {
       });
     }
 };
-
-$('nav > ul').css({padding-right:0px})
