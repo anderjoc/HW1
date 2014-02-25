@@ -8,11 +8,16 @@
 		<link rel="shortcut icon" href="images/pyramid-icon.png" type="image/x-icon"/>
 		<link rel="stylesheet" href="css/styles.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 		<script src="js/Utility.js"></script>
 		<script src="js/header.js"></script>
 		<script src="js/footer.js"></script>
 		<script src="js/clock.js"></script>
 		<script src="js/timer.js"></script>
+		<script src="js/accordian.js"></script>
 	</head>
 	<body id = "index"  onload="updateClock(); setInterval('updateClock()',1000)">
 		<section id="header">
@@ -21,15 +26,18 @@
 			<div class="left-float">		
 				<nav>
 		            <ul>
-		                <li><a href="#background">What is Pyramid?</a></li>
-		                <li><a href="#tenants">Tenants of Pyramid</a></li>
-		                <li><a href="#system">System Requirements</a></li>
-		                <li><a href="#download">How to Download</a></li>
-		                <li><a href="#pylons">Differences Between Pyramid and Pylons</a></li>
-		                <li><a href="#repoze">Differences Between Pyramid and repoze.bfg</a></li>
-		                <li><a href="#sample">Sample Code: Hello World!</a></li>
-		                <li><a href="#more">More Useful Attributes of Pyramid</a></li>
-		                <li><a href="#sources">Sources</a></li>
+		            	<li id="accordian">Pyramids Web Framework</li>
+		            	<ul>
+			                <li><a href="#background">What is Pyramid?</a></li>
+			                <li><a href="#tenants">Tenants of Pyramid</a></li>
+			                <li><a href="#system">System Requirements</a></li>
+			                <li><a href="#download">How to Download</a></li>
+			                <li><a href="#pylons">Differences Between Pyramid and Pylons</a></li>
+			                <li><a href="#repoze">Differences Between Pyramid and repoze.bfg</a></li>
+			                <li><a href="#sample">Sample Code: Hello World!</a></li>
+			                <li><a href="#more">More Useful Attributes of Pyramid</a></li>
+			                <li><a href="#sources">Sources</a></li>
+			            </ul>
 		                <li><a href=about.html>About the Author</a></li>
 		            </ul>
 		        </nav>
