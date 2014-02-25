@@ -65,11 +65,11 @@ $.event.special.hoverintent = {
     }
 };
 
-
-$("nav > a")
-	.hover(function() {
-		$(this).css({"font-weight": "bold", "color": "#ED8E0E"});
-	},
-	function() {
-		$(this).css({"font-weight": "", "color": "#000000"});
-	});
+var init = function(event){
+$("nav > a").hover(function() {
+					$(this).addClass('hover');
+				},
+				function() {
+					$(this).addClass('hover');
+				});
+}
