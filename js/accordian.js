@@ -64,3 +64,12 @@ $.event.special.hoverintent = {
       });
     }
 };
+
+
+$("nav > a")
+	.on("mouseenter", function() {
+		$(this).css({"font-weight": "bold", "color": "#ED8E0E"});
+	})
+	.on("mouseleave", function() {
+		$(this).css({"font-weight": "", "color": "#000000"});
+	});
