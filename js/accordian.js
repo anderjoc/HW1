@@ -70,6 +70,6 @@ $("nav > a").hover(function() {
 					$(this).addClass('hover');
 				},
 				function() {
-					$(this).addClass('hover');
+					$(this).removeClass('hover');
 				});
 }
