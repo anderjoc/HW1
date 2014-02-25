@@ -1,6 +1,6 @@
 $(function() {
     $( "#accordion" ).accordion({
-      event: "click hoverintent"
+      event: "mouseover"
     });
   });
  
