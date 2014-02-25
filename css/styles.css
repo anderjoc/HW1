@@ -150,6 +150,7 @@ nav{
 nav ul{
 	list-style-type: none;
 	text-decoration: none;
+	padding-left:5px;
 }
 
 nav ul li{
