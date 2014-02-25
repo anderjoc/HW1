@@ -65,4 +65,4 @@ $.event.special.hoverintent = {
     }
 };
 
-$('nav > ul').css({padding:0px})
+$('nav > ul').css({padding-right:0px})
