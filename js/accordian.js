@@ -4,12 +4,7 @@ $(function() {
     });
   });
  
-  /*
-   * hoverIntent | Copyright 2011 Brian Cherne
-   * http://cherne.net/brian/resources/jquery.hoverIntent.html
-   * modified by the jQuery UI team
-   */
-  $.event.special.hoverintent = {
+$.event.special.hoverintent = {
     setup: function() {
       $( this ).bind( "mouseover", jQuery.event.special.hoverintent.handler );
     },
@@ -61,7 +56,7 @@ $(function() {
           timeout = setTimeout( handler, 100 );
         }
       }
- 
+      
       timeout = setTimeout( handler, 100 );
       target.bind({
         mousemove: track,
@@ -69,3 +64,5 @@ $(function() {
       });
     }
 };
+
+$('nav > ul').css({padding:0px})
