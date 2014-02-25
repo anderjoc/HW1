@@ -167,6 +167,10 @@ nav h3{
 	text-shadow: 1px 1px #ED8E0E;
 }
 
+nav div{
+	padding: 12px, 20px, 12px, 20px;
+}
+
 
 /*Sources formatting*/
 #sources ul{
