@@ -65,12 +65,11 @@ $.event.special.hoverintent = {
     }
 };
 
-var init = function(event){
-$("nav > a").hover(function() {
-					$(this).addClass('hover');
-				},
-				function() {
-					$(this).removeClass('hover');
-				});
-}
-$(document).ready(init);
+
+$("a").hover(function() {
+			$(this).addClass('hover');
+		},
+		function() {
+			$(this).removeClass('hover');
+		});
+
