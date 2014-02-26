@@ -1,5 +1,5 @@
 $(function() {
-    $( "#accordion" ).accordion({
+    $( "nav > #accordion" ).accordion({
       event: "click hoverintent"
     });
   });
