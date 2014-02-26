@@ -265,7 +265,7 @@ button{
 	display: block;
 	opacity: 1;
 }
-.slider .arrow {
+/*.slider .arrow {
 	background: url(slider-arrows.png) no-repeat;
 	cursor: pointer;
 	display: block;
@@ -282,7 +282,7 @@ button{
 .slider .arrow.right {
 	right: 400px;
 	background-position: -50px 0;
-}
+}*/
 .slider .dots {
 	position: absolute;
 	bottom: -35px;
