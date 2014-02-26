@@ -9,17 +9,19 @@ $(document).ready(function(){
 	
 	$(".slider").hide();
 
+	$( ".slideshow-button" ).click(function(){
+		$(this).toggleClass("slideshow-button");
+		if ($(this).hasClass("slideshow-button")){
+			$("#my-slider").show("slow");
+			$(this).text('Hide Picture Slideshow');
+			$(".footer").css("margin-top","500px")
+		} else {
+			$("#my-slider").hide("slow");
+			$(this).text('View Picture Slideshow');
+		}
+	});
+
 });
 
 
 	
-$( ".slideshow-button" ).click(function(){
-	$(this).toggleClass("slideshow-button");
-	if ($(this).hasClass("slideshow-button")){
-		$("#my-slider").show("slow");
-		$(this).text('Hide Picture Slideshow');
-	} else {
-		$("#my-slider").hide("slow");
-		$(this).text('View Picture Slideshow');
-	}
-});
