@@ -1,3 +1,15 @@
+$( ".slideshow-button" ).click(function(){
+	$(this).toggleClass("slideshow-button");
+	if ($(this).hasClass("slideshow-button")){
+		$("#my-slider").show("slow");
+		$(this).text('Hide Picture Slideshow');
+	} else {
+		$("#my-slider").hide("slow");
+		$(this).text('View Picture Slideshow');
+	}
+});
+
+
 $(document).ready(function(){
 	$(".slider").slippity({
 	arrowClass: ".arrow", // the selector for arrows navigation.
@@ -6,4 +18,6 @@ $(document).ready(function(){
 	animationTime: 500, // the delay time between slides. 
 	start: function(){}, // callback
 	end: function(){}}); // callback
+	
+	$(".slider").hide();
 });

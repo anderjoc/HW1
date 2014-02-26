@@ -68,20 +68,20 @@
 				});
 				
 				
-				/**** PREV / NEXT ARROWS ****/
-				
-				// Set up prev,next click events.
-				$slider.find(settings.arrowClass).on("click", function(e){
-					e.preventDefault();
-
-					if ($(e.currentTarget).hasClass("left")) {
-						slideLeft();
-					} else {
-						slideRight();
-					}
-				});
-			}
-			
+				// /**** PREV / NEXT ARROWS ****/
+// 				
+				// // Set up prev,next click events.
+				// $slider.find(settings.arrowClass).on("click", function(e){
+					// e.preventDefault();
+// 
+					// if ($(e.currentTarget).hasClass("left")) {
+						// slideLeft();
+					// } else {
+						// slideRight();
+					// }
+				// });
+			// }
+// 			
 			
 			/* --------------------------------------
 				SLIDING FUNCTIONS
