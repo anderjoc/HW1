@@ -285,3 +285,8 @@ button{
 .slider .dots a.active, .slider .dots a:hover {
 	opacity: 1;
 }
+
+.slideshow-button {
+	margin-left:auto;
+	margin-right:auto;
+}
