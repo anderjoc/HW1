@@ -6,8 +6,6 @@ $(document).ready(function(){
 	animationTime: 500, // the delay time between slides. 
 	start: function(){}, // callback
 	end: function(){}}); // callback
-	
-	// $(".slider").hide();
 
 	$( ".slideshow-button" ).click(function(){
 		$(this).toggleClass("slideshow-button");
