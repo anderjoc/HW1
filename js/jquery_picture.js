@@ -8,8 +8,12 @@ $(document).ready(function(){
 	end: function(){}}); // callback
 	
 	$(".slider").hide();
+
+});
+
+
 	
-	$( ".slideshow-button" ).click(function(){
+$( ".slideshow-button" ).click(function(){
 	$(this).toggleClass("slideshow-button");
 	if ($(this).hasClass("slideshow-button")){
 		$("#my-slider").show("slow");
@@ -18,6 +22,4 @@ $(document).ready(function(){
 		$("#my-slider").hide("slow");
 		$(this).text('View Picture Slideshow');
 	}
-});
-
 });
