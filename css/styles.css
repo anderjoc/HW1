@@ -289,5 +289,7 @@ button{
 #slideshow-button {
 	display:block;
 	margin:auto;
-
+	height:80px;
+	width:200px;
+	font-size: 16pt;
 }
