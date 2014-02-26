@@ -286,7 +286,7 @@ button{
 	opacity: 1;
 }
 
-.slideshow-button {
+#slideshow-button {
 	display:block;
 	margin:auto;
 
