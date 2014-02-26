@@ -294,3 +294,7 @@ button{
 	font-size: 16pt;
 	text-shadow: 1px 1px #ED8E0E;
 }
+
+#pic-button {
+	padding-bottom: 30px;
+}
