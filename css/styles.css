@@ -249,7 +249,7 @@ button{
 }
 .slider img {
 	display: block;
-	width: 100%;
+	width: 500px;
 }
 .slider .slide {
 	display: none;
@@ -274,10 +274,10 @@ button{
 	z-index: 100;
 }
 .slider .arrow.left {
-	left: 20px;
+	left: 60px;
 }
 .slider .arrow.right {
-	right: 20px;
+	right: 60px;
 	background-position: -50px 0;
 }
 .slider .dots {
