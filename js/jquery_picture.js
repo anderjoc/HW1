@@ -7,9 +7,7 @@ $(document).ready(function(){
 	start: function(){}, // callback
 	end: function(){}}); // callback
 	
-	$(".slider").hide();
-
-	$(".slideshow-button").toggleClass("slideshow-button");
+	// $(".slider").hide();
 
 	$( ".slideshow-button" ).click(function(){
 		$(this).toggleClass("slideshow-button");
