@@ -66,7 +66,7 @@ $.event.special.hoverintent = {
 };
 
 
-$(".a").hover(function() {
+$("a").hover(function() {
 			$(this).addClass('hover');
 		},
 		function() {
