@@ -7,3 +7,10 @@ $(document).ready(function(){
 	start: function(){}, // callback
 	end: function(){}}); // callback
 });
+
+$('a').hover(function() {
+			$(this).addClass('bolder');
+		},
+		function() {
+			$(this).removeClass('bolder');
+		});
