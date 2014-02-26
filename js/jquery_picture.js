@@ -9,6 +9,8 @@ $(document).ready(function(){
 	
 	$(".slider").hide();
 
+	$(".slideshow-button").toggleClass("slideshow-button");
+
 	$( ".slideshow-button" ).click(function(){
 		$(this).toggleClass("slideshow-button");
 		if ($(this).hasClass("slideshow-button")){
